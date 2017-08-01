@@ -63,7 +63,7 @@ func main() {
 	}
 	for u := 0; u < len(unames); u++ {
 		for p := 0; p < len(pwds); p++ {
-			go ccssh(unames[u], pwds[p], "45.32.37.177", "22", c)
+			go ccssh(unames[u], pwds[p], "x.x.x.x", "22", c)
 			time.Sleep(1)
 		}
 
